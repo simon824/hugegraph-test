@@ -173,7 +173,7 @@ class Deploy:
                                                'apache-hugegraph-toolchain-incubating-1.0.0',
                                                'apache-hugegraph-hubble-incubating-1.0.0')
         # set_hubble_properties(hubble_package_dir_name, conf.graph_host, conf.hubble_port)
-        start_graph(hubble_package_dir_name, 'hubble')
+        # start_graph(hubble_package_dir_name, 'hubble')
 
 
 if __name__ == "__main__":
