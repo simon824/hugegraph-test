@@ -67,6 +67,7 @@ jobs:
       - name: deploy hugegraph
         run: |
           python src/deploy_start.py all
+          ./graph/hugegraph-toolchain/apache-hugegraph-toolchain-incubating-1.2.0/apache-hugegraph-hubble-incubating-1.2.0/bin/start-hubble.sh
 
       - name: decompress dataset.zip
         run: |
