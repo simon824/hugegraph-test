@@ -194,7 +194,8 @@ class Deploy:
 
         # set properties && start hubble
         # set_hubble_properties(hubble_package_dir_name, conf.graph_host, conf.hubble_port)
-        start_graph(conf.hubble_path, 'hubble')
+        # start hubble in ci
+        # start_graph(conf.hubble_path, 'hubble')
 
 
 if __name__ == "__main__":
